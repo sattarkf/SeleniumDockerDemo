@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumDockerDemo.GoogleTest">
+      <class name="SeleniumDockerDemo.GoogleTestFirefox">
         <methods>
           <include name="googleTitleTest"/>
         </methods>
-      </class> <!-- SeleniumDockerDemo.GoogleTest -->
+      </class> <!-- SeleniumDockerDemo.GoogleTestFirefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
